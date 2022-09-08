@@ -1,0 +1,170 @@
+h1, h2, h3, h4 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  padding-top: 66px;
+  background: rgb(78, 190, 254);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgb(78, 190, 254)), to(rgb(55, 144, 217)));
+  background: linear-gradient(to bottom right, rgb(78, 190, 254), rgb(55, 144, 217));
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.wrapper_header_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper_header {
+  color: white;
+}
+.wrapper_header h1 {
+  line-height: 1.5em;
+  font-size: 37px;
+  width: 500px;
+  padding-top: 150px;
+}
+.wrapper_header h1 span {
+  font-size: 59px;
+}
+
+.header_text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.btn {
+  display: block;
+  background: #ffd429;
+  width: 220px;
+  height: 56px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  margin-top: 44px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.btn:hover {
+  background: #a88700;
+}
+
+.main_img {
+  padding-top: 60px;
+  margin-bottom: 100px;
+  margin-right: -40px;
+}
+
+.wait h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.wait_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 80px 0 100px 0;
+}
+
+.wait_element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wait_element h3 {
+  margin: 30px 0 20px 0;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+}
+.wait_element p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 300px;
+  line-height: 1.6em;
+}
+
+.form {
+  background: #ecf3f8;
+}
+
+.form_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form_wrapper h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 80px 0 40px 0;
+}
+.form_wrapper input {
+  display: block;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 12px 25px;
+  margin: 15px;
+  border: 1px solid #bbbbbb;
+  border-radius: 2px;
+  width: 340px;
+}
+.form_wrapper a {
+  width: 340px;
+  display: block;
+  background: #ffd429;
+  height: 52px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-bottom: 100px;
+}
+.form_wrapper a:hover {
+  background: #a88700;
+}
+
+footer {
+  padding: 60px;
+  background: #164d7a;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}

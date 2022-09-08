@@ -1,0 +1,225 @@
+$font-os: 'Open Sans', sans-serif;
+$font-ub: 'Ubuntu', sans-serif;
+
+h1, h2, h3, h4 {
+    font-family: $font-ub;
+}
+
+.header {
+    padding-top: 66px;
+    padding-bottom: 100px;
+    background: rgba(78, 190, 254, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(78, 190, 254, 1.0), rgba(55, 144, 217, 1.0));
+    background: -moz-linear-gradient(top left, rgba(78, 190, 254, 1.0), rgba(55, 144, 217, 1.0));
+    background: linear-gradient(to bottom right, rgba(78, 190, 254, 1.0), rgba(55, 144, 217, 1.0));
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo {
+
+}
+.wrapper_header_main {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_header {
+    color: white;
+    h1{
+        line-height: 1.5em;
+        font-size: 37px;
+        max-width: 500px;
+        padding-top: 150px;
+        span {
+            font-size: 59px;
+        }
+    }
+}
+.header_text {
+    font-family: $font-os;
+    font-size: 16px;
+    line-height: 1.6em;
+    width: 400px;
+    margin-top: 40px;
+}
+.btn {
+    display: block;
+    background: #ffd429;
+    width: 220px;
+    height: 56px;
+    font-family: $font-os;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    margin-top: 44px;
+    transition: all 0.3s linear;
+    &:hover {
+        background: #a88700;
+    }
+}
+.main_img {
+    padding-top: 60px;
+    
+}
+
+// main
+
+.main {
+}
+.wait {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+}
+.wait_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 0 0;
+}
+.wait_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    h3 {
+        margin: 30px 0 20px 0;
+        font-weight: bold;
+        font-size: 19px;
+        text-align: center;
+    }
+    p {
+        font-family: $font-ub;
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.6em;
+    }
+}
+
+// form
+
+.form {
+    background: #ecf3f8;
+}
+.form_wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0 0 40px 0;
+    }
+    input {
+        display: block;
+        font-size: 15px;
+        font-family: $font-ub;
+        padding: 12px 25px;
+        margin: 15px;
+        border: 1px solid #bbbbbb;
+        border-radius: 2px;
+        width: 340px;
+    }
+    button {
+        width: 340px;
+        display: block;
+        background: #ffd429;
+        height: 52px;
+        font-family: $font-os;
+        color: black;
+        font-weight: 700;
+        text-align: center;
+        padding: 18px;
+        transition: all 0.3s linear;
+        margin: 15px;
+        &:hover {
+            background: #a88700;
+        }
+        
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    padding: 60px 0;
+    background: #164d7a;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: $font-os;
+}
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+    .main_img {
+        width: 560px;
+        
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper_header_main {
+        flex-direction: column;
+    }
+    .header_text {
+        width: 100%;
+    }
+    .main_img {
+        margin: 0 auto;
+    }
+    .wait_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wait_element {
+        margin-bottom: 40px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.wrapper_header {
+        a {
+            width: 100%;
+        }
+    }
+    form {
+        width: 100%;
+        input {
+            width: 100%;
+        }
+    }
+    .main_img {
+        width: 500px;
+        
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+    .main_img {
+        width: 320px;
+        
+    }
+}
